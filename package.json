@@ -1,0 +1,16 @@
+{
+  "name": "circuits",
+  "version": "0.0.1",
+  "description": "Experimental circuits",
+  "main": "index.js",
+  "repository": "git@github.com:demonsh/circuits.git",
+  "author": "Dmytro Sukhyi <dmytro.sukhiy@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "circom_tester": "^0.0.20",
+    "circomkit": "^0.3.0",
+    "circomlib": "^2.0.5",
+    "circomlibjs": "^0.1.7",
+    "snarkjs": "0.7.4"
+  }
+}
