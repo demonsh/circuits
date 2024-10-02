@@ -33,3 +33,12 @@ func (ts *OnChainTreeStore) Proof(k *big.Int) *merkletree.Proof {
 	}
 	return proof
 }
+
+func (ts *OnChainTreeStore) Siblings(k *big.Int) []*merkletree.Hash {
+	proof, _, err := ts.Tree.GenerateProof(context.Background(), k, ts.Tree.Root())
+	if err != nil {
+		panic(err)
+	}
+
+	return proof.AllSiblings()
+}
