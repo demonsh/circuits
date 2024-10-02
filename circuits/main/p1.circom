@@ -3,4 +3,4 @@ pragma circom 2.1.0;
 
 include "../p1.circom";
 
-component main {public[a, b]} = Multiplier2();
+component main {public[amount, receiver, nonce, root]} = P1(20);

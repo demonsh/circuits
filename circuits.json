@@ -1,6 +1,7 @@
 
 {"p1": {
     "file":     "p1",
-    "template": "Multiplier2",
-    "pubs":     ["a","b"]
+    "template": "P1",
+    "params": [20],
+    "pubs":     ["amount","receiver","nonce", "root"]
   }}
